@@ -22,6 +22,9 @@
     color: var(--main-color);
 }
 
+
+/* conteiners */
+
 #container{
     display: flex;
     flex-direction: row;
