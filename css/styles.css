@@ -33,7 +33,7 @@
 }
 
 #bio-container {
-    flex: 1 1 30%;
+    flex: 1 1 20%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
     text-align: center;
@@ -47,6 +47,7 @@
     padding: 50px;
 
 }
+/* bio container */
 
 #bio-container p{
       margin-bottom: 20px;
@@ -56,18 +57,18 @@
     margin-bottom: 25px;
 }
 
-#bio-container img {
-    width: 150px;
-    height: 150px;
+#bio-container image {
+    width: 15px;
+    height: 15px;
 }
 
 #bio-container #welcome-text {
     font-weight: bold;
 }
 
-#bio-img {
-    width: 175px;
-    height: 175px;
+#bio-image {
+    width: 150px;
+    height: 155px;
     border-radius: 50%;
     margin-bottom: 20px;
 
@@ -135,17 +136,17 @@
 }
 
 #btn-projects {
-    font-weight: bold;
-    font-size: 11px;
+    font-weight:bold;
+    font-size: 16px;
     color: var(--main-text-color);
     background-color: var(--main-color);
     border: 2px solid var(--main-color);
     border-radius: 5px;
     text-decoration: none;
     transition: .5s;
-    margin: 25px 0px;
+    margin: 20px 0px;
     padding: 12px 10px;
-    width: 150px;
+    width: 110px;
     text-align: center;
     display: flex;
 
@@ -195,55 +196,4 @@
 .skills-box i {
     font-size: 45px;
     margin-right: 10px;
-}
- /* Mobile */
-
- @media(max-width: 450px) {
-
-    #container {
-        flex-direction : column;
-
-    }
-
-    #bio-container {
-        min-height : auto;
-        border-right: none;
-        border-bottom : 5px solid var(--bio-border-color);
-    }
-
-    #bio-container h2 {
-        display: none;
-    }
- }
- 
- #bio-container p {
-    max-width: 60%;
-    margin : 10px auto;
- }
-
- #about-container {
-    text-align: center;
-    padding: 30px;
- }
-
- #about-container .description {
-    margin: 10px auto;
-    max-width: 100%;
-    line-height: 26px;
-
-
- }
- #btn-projects {
-    margin: 20px auto;
- }
-
- .skills-box {
-    flex: 1 1 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-.skills.box i {
-    font-size: 60px;
 }
